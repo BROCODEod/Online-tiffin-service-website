@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url(thumb-1920-983077.jpg)
+}
+
+h1{
+    color: rgb(187, 255, 245);
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size:xxx-large;
+
+}
+#home{
+    color:  #fbffda;
+}
+
+#about{
+    color:  #fbffda;
+}
+#services{
+    color:  #fbffda;
+    
+}
+#contact{
+    color:  #fbffda;
+}
+#shop {
+
+ color:  #fbffda;
+}
+
+header {
+   
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:  #fbffda;
+    padding: 0.5rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #ff4646;
+    
+}
+
+.services-grid, .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.service-card, .product-card {
+    border: 1px solid #fbffda;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.service-card .price, .product-card .price {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    margin-top: 2rem;
+}
